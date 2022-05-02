@@ -1,0 +1,18 @@
+{
+  "name": "carousel",
+  "version": "0.0.1",
+  "description": "A simple carousel component",
+  "license": "MIT",
+  "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
