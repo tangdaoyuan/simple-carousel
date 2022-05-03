@@ -8,16 +8,37 @@ import AIRPODS from './assets/airpods.png'
 function App() {
   return (
     <div className="App">
-      <Carousel>
-        <section>
+      <Carousel duration={3000}>
+        <div className="page page1">
+          <section>
+            <h1>
+              xPhone
+            </h1>
+            <p>Lots to Love. Less to spend.</p>
+            <p>Staring at $399.</p>
+          </section>
           <img src={IPHONE} alt="iphone" />
-        </section>
-        <section>
+        </div>
+        <div className="page page2">
+          <section>
+            <h1>
+              Tablet
+            </h1>
+            <p>Just the right amount of everything.</p>
+          </section>
           <img src={TABLET} alt="tablet" />
-        </section>
-        <section>
+        </div>
+        <div className="page page2">
+          <section>
+            <h1>
+              Buy a Tablet or xPhone for College.
+            </h1>
+            <h1>
+              Get a airPods.
+            </h1>
+          </section>
           <img src={AIRPODS} alt="airpods" />
-        </section>
+        </div>
       </Carousel>
     </div>
   )
