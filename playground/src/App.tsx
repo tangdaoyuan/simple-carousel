@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.scss'
-import Carousel from '../../lib/src''
+import Carousel from '../../lib/src'
 import IPHONE from './assets/iphone.png'
 import TABLET from './assets/tablet.png'
 import AIRPODS from './assets/airpods.png'
