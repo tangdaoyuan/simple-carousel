@@ -10,7 +10,10 @@
     "dev": "yarn workspace playground run dev",
     "test": "vitest run",
     "test:unit": "vitest run",
-    "build": "yarn workspace simple-carousel run build"
+    "build": "yarn workspace simple-carousel run build",
+    "typecheck:lib": "yarn workspace simple-carousel run typecheck",
+    "typecheck:playground": "yarn workspace playground run typecheck",
+    "typecheck": "npm run typecheck:lib && npm run typecheck:playground"
   },
   "devDependencies": {
     "@suger-tdy/eslint-config": "^1.0.3",
