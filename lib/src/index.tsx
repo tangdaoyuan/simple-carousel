@@ -1,14 +1,9 @@
-import type { ReactNode } from 'react'
 import React, { useRef } from 'react'
 import Track from './track'
 import Slick from './slick'
 import './index.scss'
 import useStep from './hook/useStep'
-
-interface ICarousel {
-  duration?: number
-  children: ReactNode | ReactNode[]
-}
+import type { ICarousel } from './types'
 
 function Carousel(_props: ICarousel) {
   const { duration = 3000, children } = _props

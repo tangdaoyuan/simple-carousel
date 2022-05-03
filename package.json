@@ -5,11 +5,12 @@
   "description": "A simple carousel component",
   "license": "MIT",
   "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "dev": "yarn workspace playground run dev",
     "test": "vitest run",
-    "test:unit": "vitest run"
+    "test:unit": "vitest run",
+    "build": "yarn workspace simple-carousel run build"
   },
   "devDependencies": {
     "@suger-tdy/eslint-config": "^1.0.3",
